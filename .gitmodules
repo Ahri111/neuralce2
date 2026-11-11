@@ -1,0 +1,3 @@
+[submodule "external/Configurational-Disorder"]
+	path = external/Configurational-Disorder
+	url = https://github.com/qmatyanlab/Configurational-Disorder.git

@@ -1,0 +1,626 @@
+{
+ "data/atom_features/atom_init.json": {
+  "bytes": 66635,
+  "md5": "b6ea12148b58efcb924c6e2d7a024755"
+ },
+ "data/benchmark_folds.json": {
+  "bytes": 11122,
+  "md5": "9a8650bd9be6423796fcc7d09a3d3b9a"
+ },
+ "data/nipt/REF_ideal_lattice.POSCAR": {
+  "bytes": 7715,
+  "md5": "7acf1853842ce8fd3dac46961ec1ac89"
+ },
+ "data/nipt/cifs/Ni0Pt108__Pt_run_0001.cif": {
+  "bytes": 6395,
+  "md5": "da41f94d9a3ef73ad1260a2f6e8656cc"
+ },
+ "data/nipt/cifs/Ni108Pt0__Ni_run_0001.cif": {
+  "bytes": 6410,
+  "md5": "01eff75dc5e8ec84a3083cba96c7a267"
+ },
+ "data/nipt/cifs/Ni12Pt96__AL_bridges__c96_GS.cif": {
+  "bytes": 9312,
+  "md5": "32fb45797d5013c63648e95cfa9fb1cc"
+ },
+ "data/nipt/cifs/Ni12Pt96__AL_bridges__c96_s425.cif": {
+  "bytes": 10162,
+  "md5": "02e4cf07e05a6fc27eed841dad89f858"
+ },
+ "data/nipt/cifs/Ni12Pt96__Ni12Pt96_ordered2.cif": {
+  "bytes": 6394,
+  "md5": "063bd0e440e4a9122caec34bc5c626c0"
+ },
+ "data/nipt/cifs/Ni12Pt96__Ni12Pt96_run_0010.cif": {
+  "bytes": 6384,
+  "md5": "177c1f18c67b0dda9d0894e4ac4d1f8f"
+ },
+ "data/nipt/cifs/Ni12Pt96__Ni12Pt96_run_0020.cif": {
+  "bytes": 6384,
+  "md5": "bfdfad68f93ca9153ee99deaaeae3350"
+ },
+ "data/nipt/cifs/Ni12Pt96__Ni12Pt96_run_0030.cif": {
+  "bytes": 6384,
+  "md5": "fdc611e3b25b3418dd90056c4396e686"
+ },
+ "data/nipt/cifs/Ni12Pt96__Ni12Pt96_run_0040.cif": {
+  "bytes": 6384,
+  "md5": "5e929c67e6de28268633f36306679c84"
+ },
+ "data/nipt/cifs/Ni12Pt96__Ni12Pt96_run_0050__db1.cif": {
+  "bytes": 6384,
+  "md5": "b3958dff23a6f2ea73a0e289c08ace08"
+ },
+ "data/nipt/cifs/Ni12Pt96__Ni12Pt96_run_original.cif": {
+  "bytes": 6384,
+  "md5": "053b3a918e4222a1ba801d3d5eb364ec"
+ },
+ "data/nipt/cifs/Ni12Pt96__Pt96Ni12_best_1_sorted.cif": {
+  "bytes": 6386,
+  "md5": "ba25d35fcec7f912c835d11ebb69bdea"
+ },
+ "data/nipt/cifs/Ni12Pt96__Pt96Ni12_ordered.cif": {
+  "bytes": 6390,
+  "md5": "116271bda04d6174b75fe9d4bb42b986"
+ },
+ "data/nipt/cifs/Ni12Pt96__Pt96Ni12_sandwich.cif": {
+  "bytes": 6394,
+  "md5": "b26a60a876ea5fe673a10a030c9dba4c"
+ },
+ "data/nipt/cifs/Ni12Pt96__expected_gs__c96.cif": {
+  "bytes": 10071,
+  "md5": "db3dc49808b2d4bee50019cb0c85f288"
+ },
+ "data/nipt/cifs/Ni18Pt90__AL_bridges__c90_GS.cif": {
+  "bytes": 9009,
+  "md5": "cc2e2f73d49aca053d8d81b17f5eed57"
+ },
+ "data/nipt/cifs/Ni18Pt90__AL_bridges__c90_s127.cif": {
+  "bytes": 10157,
+  "md5": "d21388f21b0aa7cbe4f81714e2b7ce20"
+ },
+ "data/nipt/cifs/Ni18Pt90__AL_bridges__c90_s460.cif": {
+  "bytes": 10167,
+  "md5": "f1a16dfbfa0a7e17526ccfc18b955ac9"
+ },
+ "data/nipt/cifs/Ni18Pt90__Ni18Pt90_run_0010.cif": {
+  "bytes": 6384,
+  "md5": "7833d9d24cd5efb88a609dc58ecba242"
+ },
+ "data/nipt/cifs/Ni18Pt90__Ni18Pt90_run_0020.cif": {
+  "bytes": 6384,
+  "md5": "0a928b60e4afa265555b9da95b59df2f"
+ },
+ "data/nipt/cifs/Ni18Pt90__Ni18Pt90_run_0030.cif": {
+  "bytes": 6386,
+  "md5": "4669761021ceeca7182a8d9b91a22a52"
+ },
+ "data/nipt/cifs/Ni18Pt90__Ni18Pt90_run_0040.cif": {
+  "bytes": 6384,
+  "md5": "4013af9065a544f06177b4092a1b592e"
+ },
+ "data/nipt/cifs/Ni18Pt90__Ni18Pt90_run_0050__db1.cif": {
+  "bytes": 6384,
+  "md5": "39929d039b1f53471f691b9819b7a8b7"
+ },
+ "data/nipt/cifs/Ni18Pt90__Ni18Pt90_run_original.cif": {
+  "bytes": 6384,
+  "md5": "f2df595f6a4f22b370bcde8f2d0c479a"
+ },
+ "data/nipt/cifs/Ni18Pt90__Pt90Ni18_best_1_sorted.cif": {
+  "bytes": 6385,
+  "md5": "268c06e1a68a54a0ec92f118097d3e0e"
+ },
+ "data/nipt/cifs/Ni18Pt90__Pt90Ni18_ordered.cif": {
+  "bytes": 6402,
+  "md5": "c9135ffc28df4fb823051c5f7f96480a"
+ },
+ "data/nipt/cifs/Ni18Pt90__Pt90Ni18_sandwich.cif": {
+  "bytes": 6399,
+  "md5": "e5e8d1e918ef9c74a66f037cdb97a338"
+ },
+ "data/nipt/cifs/Ni18Pt90__expected_gs__c90.cif": {
+  "bytes": 10234,
+  "md5": "f8fc96fd770394eb01d09ce8f0d1290a"
+ },
+ "data/nipt/cifs/Ni27Pt81__AL_bridges__c81_s346.cif": {
+  "bytes": 10181,
+  "md5": "b1e3f1eb1ee62f6da8e6f4ff3ee8a415"
+ },
+ "data/nipt/cifs/Ni27Pt81__AL_bridges__c81_s41.cif": {
+  "bytes": 10205,
+  "md5": "36f1ae0039579e731d4e8dd22974941c"
+ },
+ "data/nipt/cifs/Ni27Pt81__AL_bridges__c81_s426.cif": {
+  "bytes": 10138,
+  "md5": "378b591d23c3e12826bf44398f422755"
+ },
+ "data/nipt/cifs/Ni27Pt81__Pt3Ni_run_0050.cif": {
+  "bytes": 6384,
+  "md5": "2a1707447287ff6d97d602a5f7d62b48"
+ },
+ "data/nipt/cifs/Ni27Pt81__Pt3Ni_run_original.cif": {
+  "bytes": 6414,
+  "md5": "458838a5f1691b61f577764cfc607954"
+ },
+ "data/nipt/cifs/Ni27Pt81__Pt81Ni27_best_1_sorted.cif": {
+  "bytes": 6406,
+  "md5": "9614549dedb6208564724043933825b5"
+ },
+ "data/nipt/cifs/Ni27Pt81__Pt81Ni27_sandwich.cif": {
+  "bytes": 6399,
+  "md5": "63416240b926bf3805ea62b294e264bb"
+ },
+ "data/nipt/cifs/Ni36Pt72__AL_bridges__c72_GS.cif": {
+  "bytes": 9081,
+  "md5": "d46056d7f7f406f964fac316de260737"
+ },
+ "data/nipt/cifs/Ni36Pt72__AL_bridges__c72_s215.cif": {
+  "bytes": 10164,
+  "md5": "bc30ab3e5025cf9e19b61b37a04ed99e"
+ },
+ "data/nipt/cifs/Ni36Pt72__AL_bridges__c72_s274.cif": {
+  "bytes": 10134,
+  "md5": "7ad5974b6e543cbdf808ab4f3d90bd64"
+ },
+ "data/nipt/cifs/Ni36Pt72__AL_bridges__c72_s374.cif": {
+  "bytes": 10215,
+  "md5": "e02b4631baa38fa6cb3dbc776050d021"
+ },
+ "data/nipt/cifs/Ni36Pt72__AL_bridges__c72_s395.cif": {
+  "bytes": 10199,
+  "md5": "4ba630c64805ba13e3c908693cda7c02"
+ },
+ "data/nipt/cifs/Ni36Pt72__AL_bridges__c72_s403.cif": {
+  "bytes": 10181,
+  "md5": "c811267950c3c58f31c3f68ccf077c68"
+ },
+ "data/nipt/cifs/Ni36Pt72__Ni36Pt72_ordered2.cif": {
+  "bytes": 6419,
+  "md5": "0935fef512159132d481e48b124ba694"
+ },
+ "data/nipt/cifs/Ni36Pt72__Ni36Pt72_run_0010.cif": {
+  "bytes": 6384,
+  "md5": "3b9706c62b73bad292b5d7f5b49e1915"
+ },
+ "data/nipt/cifs/Ni36Pt72__Ni36Pt72_run_0020.cif": {
+  "bytes": 6384,
+  "md5": "21fe6a84fadaa2ee4f01f0244089b0cd"
+ },
+ "data/nipt/cifs/Ni36Pt72__Ni36Pt72_run_0030.cif": {
+  "bytes": 6384,
+  "md5": "29ebb86e562f3374eb15e179576f6904"
+ },
+ "data/nipt/cifs/Ni36Pt72__Ni36Pt72_run_0040.cif": {
+  "bytes": 6384,
+  "md5": "e65543d83672ababd25d98a300339054"
+ },
+ "data/nipt/cifs/Ni36Pt72__Ni36Pt72_run_0050__db1.cif": {
+  "bytes": 6384,
+  "md5": "51d611dfa1a3af33596aee149e1fd838"
+ },
+ "data/nipt/cifs/Ni36Pt72__Ni36Pt72_run_original.cif": {
+  "bytes": 6384,
+  "md5": "9b153b2f42dd04c802eb61ddc7f1226b"
+ },
+ "data/nipt/cifs/Ni36Pt72__Pt72Ni36_best_1_sorted.cif": {
+  "bytes": 6392,
+  "md5": "5ff3adb010340347e16e35d9ec03e233"
+ },
+ "data/nipt/cifs/Ni36Pt72__Pt72Ni36_ordered.cif": {
+  "bytes": 6414,
+  "md5": "596d8b1966a0d2a3b1ce58b03c150f8c"
+ },
+ "data/nipt/cifs/Ni36Pt72__Pt72Ni36_sandwich.cif": {
+  "bytes": 6403,
+  "md5": "b175b9f6497160f695b4564667ef16c2"
+ },
+ "data/nipt/cifs/Ni36Pt72__expected_gs__c72.cif": {
+  "bytes": 10181,
+  "md5": "439da94b779799ac6a54f03f67be8b7b"
+ },
+ "data/nipt/cifs/Ni54Pt54__AL_bridges__c54_s40.cif": {
+  "bytes": 10211,
+  "md5": "16dc591a58de72b6f759fd238a42031a"
+ },
+ "data/nipt/cifs/Ni54Pt54__AL_bridges__c54_s471.cif": {
+  "bytes": 10168,
+  "md5": "6ad916cb3392744262d593c6b16c7c2b"
+ },
+ "data/nipt/cifs/Ni54Pt54__AL_bridges__c54_s63.cif": {
+  "bytes": 10191,
+  "md5": "dc4ac761936997e5f93b909e0180a4c9"
+ },
+ "data/nipt/cifs/Ni54Pt54__AL_bridges__c54_s67.cif": {
+  "bytes": 10171,
+  "md5": "185d34acea3312467669b22ffabdb62c"
+ },
+ "data/nipt/cifs/Ni54Pt54__AL_eertekin__c54_s112.cif": {
+  "bytes": 10147,
+  "md5": "e3539e205274368b91d811dafff7c5aa"
+ },
+ "data/nipt/cifs/Ni54Pt54__AL_eertekin__c54_s158.cif": {
+  "bytes": 10170,
+  "md5": "6b576abb23b8378a66950dfc306a065d"
+ },
+ "data/nipt/cifs/Ni54Pt54__AL_eertekin__c54_s206.cif": {
+  "bytes": 9584,
+  "md5": "30db1ac14dbf3c3b65f0ab596442fc31"
+ },
+ "data/nipt/cifs/Ni54Pt54__AL_eertekin__c54_s286.cif": {
+  "bytes": 10166,
+  "md5": "a8caea919f9785bba3a83f62d7b42fe0"
+ },
+ "data/nipt/cifs/Ni54Pt54__Pt54Ni54_best_1_sorted.cif": {
+  "bytes": 6403,
+  "md5": "76680d8cc9205b95b44338543ad68eeb"
+ },
+ "data/nipt/cifs/Ni54Pt54__Pt54Ni54_ordered.cif": {
+  "bytes": 6404,
+  "md5": "08fc9cf1724a81fa927cb8a3961371c6"
+ },
+ "data/nipt/cifs/Ni54Pt54__Pt54Ni54_sandwich.cif": {
+  "bytes": 6419,
+  "md5": "ec6f649627c950556ee2a803cbe42d6a"
+ },
+ "data/nipt/cifs/Ni72Pt36__AL_eertekin__c36_GS.cif": {
+  "bytes": 9348,
+  "md5": "d4018698c3c2bde637e68b4c82dd6774"
+ },
+ "data/nipt/cifs/Ni72Pt36__AL_eertekin__c36_s0.cif": {
+  "bytes": 9015,
+  "md5": "9e210870d51df0f0224b843540f8426e"
+ },
+ "data/nipt/cifs/Ni72Pt36__AL_eertekin__c36_s176.cif": {
+  "bytes": 9870,
+  "md5": "94683151555d8fad3db6ce9e567747c2"
+ },
+ "data/nipt/cifs/Ni72Pt36__AL_eertekin__c36_s299.cif": {
+  "bytes": 10188,
+  "md5": "5399da1d834b3b5814c9c81a9d29957f"
+ },
+ "data/nipt/cifs/Ni72Pt36__AL_eertekin__c36_s311.cif": {
+  "bytes": 10200,
+  "md5": "b267a06ffdbc9d6d4f0c4bd8f7c04c25"
+ },
+ "data/nipt/cifs/Ni72Pt36__AL_eertekin__c36_s32.cif": {
+  "bytes": 10196,
+  "md5": "670306553e94ed474f97b8368c991daf"
+ },
+ "data/nipt/cifs/Ni72Pt36__AL_eertekin__c36_s328.cif": {
+  "bytes": 10198,
+  "md5": "3e089ab5f3616f43a12f6aef77c92919"
+ },
+ "data/nipt/cifs/Ni72Pt36__AL_eertekin__c36_s329.cif": {
+  "bytes": 10194,
+  "md5": "16f2b37678d7c90c8df3041b21fb984a"
+ },
+ "data/nipt/cifs/Ni72Pt36__AL_eertekin__c36_s371.cif": {
+  "bytes": 10202,
+  "md5": "de7d09f2cd7685017b31749e38210f74"
+ },
+ "data/nipt/cifs/Ni72Pt36__AL_eertekin__c36_s80.cif": {
+  "bytes": 10119,
+  "md5": "f4e5abd7d3e3e9fa23d04f31bd5760be"
+ },
+ "data/nipt/cifs/Ni72Pt36__Ni72Pt36_ordered2.cif": {
+  "bytes": 6401,
+  "md5": "df1441dacaba4f13b4d5c3a8300dc990"
+ },
+ "data/nipt/cifs/Ni72Pt36__Ni72Pt36_run_0010.cif": {
+  "bytes": 6384,
+  "md5": "a07ceac96a3d7a1596f9ff8e7a53a427"
+ },
+ "data/nipt/cifs/Ni72Pt36__Ni72Pt36_run_0020.cif": {
+  "bytes": 6384,
+  "md5": "6d2ced972e3b7eff4525e79f59dfb607"
+ },
+ "data/nipt/cifs/Ni72Pt36__Ni72Pt36_run_0030.cif": {
+  "bytes": 6384,
+  "md5": "9c44914d75594fc7dbec7039a2610005"
+ },
+ "data/nipt/cifs/Ni72Pt36__Ni72Pt36_run_0040.cif": {
+  "bytes": 6385,
+  "md5": "c08b9dd8f7313d5a7dec1a7127424c15"
+ },
+ "data/nipt/cifs/Ni72Pt36__Ni72Pt36_run_0050__db1.cif": {
+  "bytes": 6384,
+  "md5": "abc0f551f2f13e8eaf59cb9c7af55179"
+ },
+ "data/nipt/cifs/Ni72Pt36__Ni72Pt36_run_original.cif": {
+  "bytes": 6384,
+  "md5": "3744430c2dbbabf4df2e4ea29b78eb15"
+ },
+ "data/nipt/cifs/Ni72Pt36__Pt36Ni72_best_1_sorted.cif": {
+  "bytes": 6385,
+  "md5": "8806ff4d01c01bdda9dfd0e65fb200c4"
+ },
+ "data/nipt/cifs/Ni72Pt36__Pt36Ni72_ordered.cif": {
+  "bytes": 6414,
+  "md5": "eec87685c9ddb76b7c1c0a133e3d8e86"
+ },
+ "data/nipt/cifs/Ni72Pt36__Pt36Ni72_sandwich.cif": {
+  "bytes": 6420,
+  "md5": "6fe0bb90126f910cc11351666cc18df7"
+ },
+ "data/nipt/cifs/Ni72Pt36__expected_gs__c36.cif": {
+  "bytes": 10197,
+  "md5": "83ba4814fa7c75bbcab08ca2fa886b56"
+ },
+ "data/nipt/cifs/Ni81Pt27__AL_eertekin__c27_s220.cif": {
+  "bytes": 10177,
+  "md5": "529859fdf426eedbc14db6e2198f29ef"
+ },
+ "data/nipt/cifs/Ni81Pt27__AL_eertekin__c27_s236.cif": {
+  "bytes": 10175,
+  "md5": "5fa4e462c45fd96941b85f44729791b6"
+ },
+ "data/nipt/cifs/Ni81Pt27__AL_eertekin__c27_s239.cif": {
+  "bytes": 10203,
+  "md5": "a9d3383fd88fd35b0f7905f584137b17"
+ },
+ "data/nipt/cifs/Ni81Pt27__AL_eertekin__c27_s326.cif": {
+  "bytes": 9574,
+  "md5": "4e13dc53ec9ed1a3e661a952d9dcac08"
+ },
+ "data/nipt/cifs/Ni81Pt27__AL_eertekin__c27_s431.cif": {
+  "bytes": 10173,
+  "md5": "4fe5461b42d80bf6199f0baa948671fb"
+ },
+ "data/nipt/cifs/Ni81Pt27__Pt27Ni81_best_1_sorted.cif": {
+  "bytes": 6384,
+  "md5": "6d3dd8914c40458229d0cb6fca58b95c"
+ },
+ "data/nipt/cifs/Ni81Pt27__Pt27Ni81_ordered.cif": {
+  "bytes": 6411,
+  "md5": "f82efc96d2042224b5a45612bf12c691"
+ },
+ "data/nipt/cifs/Ni81Pt27__Pt27Ni81_sandwich.cif": {
+  "bytes": 6395,
+  "md5": "3b715fb637f9187b86f767dabecb4c34"
+ },
+ "data/nipt/cifs/Ni81Pt27__PtNi3_run_0050.cif": {
+  "bytes": 6384,
+  "md5": "fa6fb3ea825c02d25910c6c26039e7ee"
+ },
+ "data/nipt/cifs/Ni90Pt18__AL_eertekin__c18_GS.cif": {
+  "bytes": 9701,
+  "md5": "ebf0f628febae37a4a298ab1f471ed8b"
+ },
+ "data/nipt/cifs/Ni90Pt18__AL_eertekin__c18_s115.cif": {
+  "bytes": 10228,
+  "md5": "0f1758ba0631f139a83a0d5937952ac1"
+ },
+ "data/nipt/cifs/Ni90Pt18__AL_eertekin__c18_s198.cif": {
+  "bytes": 9602,
+  "md5": "3012e876ac2039597f51d9c15f5b106c"
+ },
+ "data/nipt/cifs/Ni90Pt18__Ni90Pt18_run_0010.cif": {
+  "bytes": 6384,
+  "md5": "fe7c76397ed793e2e870038554dd728f"
+ },
+ "data/nipt/cifs/Ni90Pt18__Ni90Pt18_run_0020.cif": {
+  "bytes": 6384,
+  "md5": "1300c39c2bc7e3234b9987b3c06b1a16"
+ },
+ "data/nipt/cifs/Ni90Pt18__Ni90Pt18_run_0030.cif": {
+  "bytes": 6384,
+  "md5": "3c69308a194dc34d3f4a010a0178dff9"
+ },
+ "data/nipt/cifs/Ni90Pt18__Ni90Pt18_run_0040.cif": {
+  "bytes": 6384,
+  "md5": "d2d2c2fdf5eef69733fc6b9ca69d7d19"
+ },
+ "data/nipt/cifs/Ni90Pt18__Ni90Pt18_run_0050__db1.cif": {
+  "bytes": 6384,
+  "md5": "116fe4d00ee3f1fda4c532ac56a70510"
+ },
+ "data/nipt/cifs/Ni90Pt18__Ni90Pt18_run_original.cif": {
+  "bytes": 6384,
+  "md5": "f905c0361e58e8c93fa31708b25a7424"
+ },
+ "data/nipt/cifs/Ni90Pt18__Pt18Ni90_best_1_sorted.cif": {
+  "bytes": 6384,
+  "md5": "201aea5f9bd1608f396f38e37e8593f6"
+ },
+ "data/nipt/cifs/Ni90Pt18__Pt18Ni90_ordered.cif": {
+  "bytes": 6402,
+  "md5": "ad623c390044d618b1f74fab63d66fe4"
+ },
+ "data/nipt/cifs/Ni90Pt18__Pt18Ni90_sandwich.cif": {
+  "bytes": 6420,
+  "md5": "247fb19312225b4bc276d1c0b1c238af"
+ },
+ "data/nipt/cifs/Ni90Pt18__expected_gs__c18.cif": {
+  "bytes": 10203,
+  "md5": "83ed8d3df0b99e8be9c92b9483d73828"
+ },
+ "data/nipt/cifs/Ni96Pt12__AL_eertekin__c12_s253.cif": {
+  "bytes": 10196,
+  "md5": "fc2722df6aaaf11bb9bd17b0ce11bb24"
+ },
+ "data/nipt/cifs/Ni96Pt12__AL_eertekin__c12_s272.cif": {
+  "bytes": 10165,
+  "md5": "f4028ff2aed3f31e9ded6e82ee3de621"
+ },
+ "data/nipt/cifs/Ni96Pt12__AL_eertekin__c12_s441.cif": {
+  "bytes": 10211,
+  "md5": "1013336fdf4e8ec05b25f112d0388391"
+ },
+ "data/nipt/cifs/Ni96Pt12__AL_eertekin__c12_s474.cif": {
+  "bytes": 10181,
+  "md5": "99caa588b70cef752f8efc771f12af22"
+ },
+ "data/nipt/cifs/Ni96Pt12__Ni96Pt12_ordered2.cif": {
+  "bytes": 6428,
+  "md5": "d04b19f33759ff2803f3ed7b6f2f7596"
+ },
+ "data/nipt/cifs/Ni96Pt12__Ni96Pt12_run_0010.cif": {
+  "bytes": 6384,
+  "md5": "4084026e432a63b563a75d33a55172f7"
+ },
+ "data/nipt/cifs/Ni96Pt12__Ni96Pt12_run_0020.cif": {
+  "bytes": 6384,
+  "md5": "4a794a25830e09a7d3ca83b824163b2b"
+ },
+ "data/nipt/cifs/Ni96Pt12__Ni96Pt12_run_0030.cif": {
+  "bytes": 6384,
+  "md5": "5730f42f21734e1b15802a4c7a933c4e"
+ },
+ "data/nipt/cifs/Ni96Pt12__Ni96Pt12_run_0040.cif": {
+  "bytes": 6384,
+  "md5": "f361a8ecddf47138d825f18ae541c4c6"
+ },
+ "data/nipt/cifs/Ni96Pt12__Ni96Pt12_run_0050__db1.cif": {
+  "bytes": 6384,
+  "md5": "ad9e1d6e9265dca0225011562608877d"
+ },
+ "data/nipt/cifs/Ni96Pt12__Ni96Pt12_run_original.cif": {
+  "bytes": 6384,
+  "md5": "f423e7548195d06265bfc6e027174e27"
+ },
+ "data/nipt/cifs/Ni96Pt12__Pt12Ni96_best_1_sorted.cif": {
+  "bytes": 6417,
+  "md5": "722ce671d970159538b0db6aa88dc773"
+ },
+ "data/nipt/cifs/Ni96Pt12__Pt12Ni96_ordered.cif": {
+  "bytes": 6396,
+  "md5": "10e150d0ba9bb215f7030f2d96a41fad"
+ },
+ "data/nipt/cifs/Ni96Pt12__Pt12Ni96_sandwich.cif": {
+  "bytes": 6394,
+  "md5": "bd3ebd0e5c60e50da16cbc9193bd89c6"
+ },
+ "data/nipt/cifs/Ni96Pt12__expected_gs__c12.cif": {
+  "bytes": 10169,
+  "md5": "2da0e0ae186e6f24db812a5393166992"
+ },
+ "data/nipt/icet_csv_FINAL_dedup.csv": {
+  "bytes": 12461,
+  "md5": "8a8a62cd7cf37626b0b95c773d89da13"
+ },
+ "models/ce/fenicr/feni_cr_icet_chemspin.ce": {
+  "bytes": 20480,
+  "md5": "86daf05739ed2469d1a195151373ce91"
+ },
+ "models/ce/fenicr/feni_cr_icet_spin_orbits.pkl": {
+  "bytes": 7978,
+  "md5": "f86484fa0b1940cc0bf8ea3329186817"
+ },
+ "models/ce/ptni/fits.json": {
+  "bytes": 791,
+  "md5": "398df46e8df9db58b98be3aec9cc71a9"
+ },
+ "models/ce/ptni/icet_c8_6_5.ce": {
+  "bytes": 20480,
+  "md5": "a8321e066354a2f5df079e93ed7f1cd1"
+ },
+ "models/ce/stfo/icet_aug467_al1a_c6_5_4.5_4.ce": {
+  "bytes": 20480,
+  "md5": "c62a5328ef88ae91d36ee45732de9006"
+ },
+ "models/ce/stfo/icet_aug467_al2b_c6_5_4.5_4.ce": {
+  "bytes": 20480,
+  "md5": "b9f119527a7eb8ff001941d8118070f0"
+ },
+ "models/ce/stfo/icet_q56.ce": {
+  "bytes": 20480,
+  "md5": "11adc4eeafc55273eafea00e08ebfb5a"
+ },
+ "models/nce/fenicr_icet_heis_bench/model.pkl": {
+  "bytes": 15552,
+  "md5": "64363ff230c1d23a9c3afdb5d66a8b98"
+ },
+ "models/nce/fenicr_s1_mean_c65_d0/model.pkl": {
+  "bytes": 29681,
+  "md5": "d9021f90d169ac80c1088fa7c9bdbfe8"
+ },
+ "models/nce/fenicr_s2b_mm_c65_d1/model.pkl": {
+  "bytes": 300581,
+  "md5": "27d10c3c7342bd8a0c7e903ae794c48e"
+ },
+ "models/nce/nipt_v3_nomax_sel/init_Ni12Pt96__Ni12Pt96_run_0010.cif": {
+  "bytes": 8539,
+  "md5": "4f2558eddb88cfb05a849989327d1e9c"
+ },
+ "models/nce/nipt_v3_nomax_sel/model.pkl": {
+  "bytes": 41127,
+  "md5": "f3d82e3094a2f0c4c0315b86711ee77e"
+ },
+ "models/nce/stfo_dd_p10_w10_wd5/model.pkl": {
+  "bytes": 185250,
+  "md5": "26e12da8f8bb99d4d7aaf488df7c8bd7"
+ },
+ "models/nce/stfo_dd_p10_w10_wd5_aug467_al1a_w0/model.pkl": {
+  "bytes": 183228,
+  "md5": "c902cdb9c6de9c27e8b37ddc22a0485e"
+ },
+ "models/nce/stfo_dd_p10_w10_wd5_aug467_al4c_w0/model.pkl": {
+  "bytes": 164508,
+  "md5": "9e697ed1d8efecf2adf533e1813db446"
+ },
+ "models/structures/fenicr/Tgrid_dense_F5.txt": {
+  "bytes": 700,
+  "md5": "056832e0091c9e87b7fe12b2411b96de"
+ },
+ "models/structures/fenicr/Tgrid_dense_F6.txt": {
+  "bytes": 710,
+  "md5": "5c8b76ecedc9becfcc60917a731c0641"
+ },
+ "models/structures/fenicr/init_Fe42.5Cr7.5Ni50_4000.cif": {
+  "bytes": 266782,
+  "md5": "82c5fc4ed123ba26f548291c953f19ba"
+ },
+ "models/structures/fenicr/init_Fe56Cr21Ni23_500.cif": {
+  "bytes": 36718,
+  "md5": "7dbb525e87dc17ea2f88bc172e100786"
+ },
+ "models/structures/fenicr/spin_allowed_dft.json": {
+  "bytes": 50,
+  "md5": "b0b168d5ecee18395f0b2c3062109cd8"
+ },
+ "models/structures/ptni/Tgrid_gmix.txt": {
+  "bytes": 564,
+  "md5": "55e422b22a71791ad4e971ed57a3570c"
+ },
+ "models/structures/ptni/Tgrid_ladder_1m_x25.txt": {
+  "bytes": 152,
+  "md5": "9ac2bd71220f3eaa0c99398a9bb4d2bc"
+ },
+ "models/structures/ptni/Tgrid_ladder_1m_x50.txt": {
+  "bytes": 152,
+  "md5": "0addb959770b02769c3b373931e99a14"
+ },
+ "models/structures/ptni/Tgrid_ladder_1m_x75.txt": {
+  "bytes": 152,
+  "md5": "0addb959770b02769c3b373931e99a14"
+ },
+ "models/structures/ptni/init_x25.cif": {
+  "bytes": 18096,
+  "md5": "8ee58659a04ba9219079ba20a6196fdd"
+ },
+ "models/structures/ptni/init_x50.cif": {
+  "bytes": 18098,
+  "md5": "d14380d7e8dca4549ad053047003590c"
+ },
+ "models/structures/ptni/init_x75.cif": {
+  "bytes": 18096,
+  "md5": "af69e29c182c4afd48abebf93dae1cbb"
+ },
+ "models/structures/ptni/ref_L10_NiPt.cif": {
+  "bytes": 18098,
+  "md5": "e49f87ba67e6cde0cce207fbcc547003"
+ },
+ "models/structures/ptni/ref_L12_Ni3Pt.cif": {
+  "bytes": 18096,
+  "md5": "efd6d08b645c27b36bc55f5d6e100883"
+ },
+ "models/structures/ptni/ref_L12_Pt3Ni.cif": {
+  "bytes": 18096,
+  "md5": "7b3027084e901c8e2c975f041c4c5022"
+ },
+ "models/structures/stfo/Tgrid_gmix.txt": {
+  "bytes": 570,
+  "md5": "1d9c61c4e76703cbec914d2088422952"
+ }
+}

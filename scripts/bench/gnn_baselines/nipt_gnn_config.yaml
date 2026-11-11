@@ -1,0 +1,19 @@
+# PtNi graph / species settings of the CGCNN and ALIGNN baselines (MC-cost benchmark).
+# Only `species_map` is read by gnn_baselines/graph_lite.py; the rest documents the benchmark settings
+# (the dataset / output paths of the original training configuration are not part of the public tree).
+dataset_name: nipt_al_c1fix2
+species_map:
+  28: 0     # Ni
+  78: 1     # Pt
+n_atoms: 108
+has_spin: false
+
+pool_mode: fixed
+conv_type: product
+edge_basis: shell_onehot
+
+graph:
+  cutoff: 4.5
+  n_shells: 2
+  shell_edges: [0.0, 3.3, 4.5]
+  max_num_nbr: 18

@@ -1,0 +1,14 @@
+# conda environment with the same pinned versions as requirements.txt
+#   conda env create -f environment.yml
+#   conda activate neuralce
+#   pip install -e .                      # the package itself (console script neuralce-mc)
+#   pip install -r requirements-cuda.txt  # optional: NVIDIA GPU
+name: neuralce
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - cxx-compiler          # icet 3.2 is built from source (pybind11, C++14)
+  - pip:
+      - -r requirements.txt

@@ -1,0 +1,21 @@
+[
+ {
+  "fw": "conv",
+  "gpu": "NVIDIA_A40",
+  "n_atoms": 10061824,
+  "R": 8,
+  "us_per_replica_step_direct": null,
+  "ms_step_propose": 0.030813365243375305,
+  "ms_step_energy": 2.426921675602595,
+  "ms_step_accept": 0.009739418824513627,
+  "ms_step_total": 2.467474459670484,
+  "us_per_replica_step": {
+   "propose": 3.851670655421913,
+   "energy": 303.36520945032436,
+   "accept": 1.2174273530642035,
+   "total": 308.4343074588105
+  },
+  "steps_per_s": 3242.1814818169796,
+  "peak_MB": 20769.514892578125
+ }
+]

@@ -1,0 +1,24 @@
+# Exact versions of the environment the paper results were produced with (Python 3.10, Linux x86_64).
+# CPU-only install:   pip install -r requirements.txt && pip install -e .
+# GPU (CUDA 12):      pip install -r requirements.txt -r requirements-cuda.txt && pip install -e .
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.3
+scikit-learn==1.7.2
+sympy==1.14.0
+joblib==1.5.3
+tqdm==4.67.3
+pyyaml==6.0.3
+ase==3.28.0
+spglib==2.7.0
+numba==0.65.0
+trainstation==1.2
+icet==3.2
+pymbar==4.0.3
+jax==0.6.2
+jaxlib==0.6.2
+optax==0.2.8
+flax==0.10.7
+matplotlib==3.10.8
+openpyxl==3.1.5
+pytest==9.1.1

@@ -1,0 +1,29 @@
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Monte Carlo output, logs, caches (regenerable)
+/runs/
+/logs/
+/.jax_cache/
+*.tables_cache.pkl
+sym_out
+
+# local environments
+/.venv/
+/venv/
+/env/
+/.conda/
+
+# editor / OS
+.DS_Store
+*.swp
+
+# regenerated figure/table outputs (the submitted set is kept in figures/paper/)
+/figures/*
+!/figures/paper/

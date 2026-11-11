@@ -1,0 +1,31 @@
+# Apptainer / Singularity definition equivalent to the Dockerfile (for HPC systems without Docker).
+#   apptainer build --fakeroot neuralce.sif docker/neuralce.def      # run from the repository root
+#   apptainer exec --nv neuralce.sif pytest -q /work/tests
+#   apptainer exec --nv -B $PWD/runs:/work/runs neuralce.sif neuralce-mc --help
+Bootstrap: docker
+From: nvidia/cuda:12.6.3-cudnn-runtime-ubuntu22.04
+
+%files
+    . /work
+
+%environment
+    export PYTHONUNBUFFERED=1
+    export JAX_DEFAULT_MATMUL_PRECISION=highest
+    export XLA_PYTHON_CLIENT_PREALLOCATE=false
+    export NCE_REPO=/work
+    export NCE_RUNS=${NCE_RUNS:-/work/runs}
+
+%post
+    export DEBIAN_FRONTEND=noninteractive
+    apt-get update && apt-get install -y --no-install-recommends \
+        python3.10 python3.10-dev python3.10-venv python3-pip \
+        build-essential git ca-certificates fonts-liberation
+    rm -rf /var/lib/apt/lists/*
+    python3.10 -m pip install --no-cache-dir --upgrade pip setuptools wheel
+    cd /work
+    python3.10 -m pip install --no-cache-dir -r requirements.txt -r requirements-cuda.txt
+    python3.10 -m pip install --no-cache-dir -e .
+    mkdir -p /work/runs /work/logs
+
+%runscript
+    exec "$@"

@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuralce"
+version = "1.0.0"
+description = "Cluster expansions on the GPU as a sliding window, and the neural cluster expansion"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = { text = "MIT" }
+authors = [{ name = "Jaejun Lee", email = "jaejunl3@illinois.edu" }]
+dependencies = [
+    "numpy>=1.26,<3",
+    "scipy>=1.11",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
+    "sympy>=1.12",
+    "ase>=3.22",
+    "spglib>=2.0",
+    "icet==3.2",
+    "pymbar>=4.0",
+    "pyyaml>=6",
+    "jax>=0.4.30,<0.7",
+    "jaxlib>=0.4.30,<0.7",
+    "optax>=0.2",
+    "matplotlib>=3.8",
+    "openpyxl>=3.1",
+    "joblib>=1.3",
+    "tqdm>=4.60",
+]
+
+[project.optional-dependencies]
+cuda = ["jax[cuda12]>=0.4.30,<0.7"]
+gnn = ["torch>=2.2", "torch-geometric>=2.5", "flax>=0.8", "pymatgen>=2024"]   # GNN baselines of the MC-cost benchmark (graph builders use pymatgen)
+dev = ["pytest>=7", "pymupdf>=1.24"]
+
+[project.scripts]
+neuralce-mc = "neuralce.mc.run:main"
+
+[tool.setuptools.packages.find]
+include = ["neuralce", "neuralce.*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

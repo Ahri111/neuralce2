@@ -1,0 +1,24 @@
+[
+ {
+  "fw": "icet",
+  "gpu": "NVIDIA_H100_80GB_HBM3",
+  "n_atoms": 131072,
+  "R": 65,
+  "us_per_replica_step_direct": {
+   "energy": 0.3966142650311574,
+   "accept": 0.15296166261228233
+  },
+  "ms_step_propose": 0.00970955053344369,
+  "ms_step_energy": 0.022189295773083963,
+  "ms_step_accept": 0.0033439494824657936,
+  "ms_step_total": 0.03524279578899344,
+  "us_per_replica_step": {
+   "propose": 0.1493777005145183,
+   "energy": 0.34137378112436867,
+   "accept": 0.051445376653319906,
+   "total": 0.5421968582922068
+  },
+  "steps_per_s": 1844348.5695394212,
+  "peak_MB": 138.77490234375
+ }
+]

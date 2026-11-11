@@ -1,0 +1,97 @@
+[
+ {
+  "fw": "conv",
+  "gpu": "NVIDIA_A40",
+  "n_atoms": 256,
+  "R": 32,
+  "us_per_replica_step_direct": null,
+  "ms_step_propose": 0.022441359857718148,
+  "ms_step_energy": 0.27192267071869636,
+  "ms_step_accept": 0.013884383564194056,
+  "ms_step_total": 0.3082484141406086,
+  "us_per_replica_step": {
+   "propose": 0.7012924955536921,
+   "energy": 8.49758345995926,
+   "accept": 0.43388698638106427,
+   "total": 9.632762941894018
+  },
+  "steps_per_s": 103812.3751235362,
+  "peak_MB": 356.770751953125
+ },
+ {
+  "fw": "conv",
+  "gpu": "NVIDIA_A40",
+  "n_atoms": 2048,
+  "R": 32,
+  "us_per_replica_step_direct": null,
+  "ms_step_propose": 0.023244274780154228,
+  "ms_step_energy": 0.32291594789259964,
+  "ms_step_accept": 0.007491009309887916,
+  "ms_step_total": 0.35365123198264176,
+  "us_per_replica_step": {
+   "propose": 0.7263835868798196,
+   "energy": 10.09112337164374,
+   "accept": 0.23409404093399738,
+   "total": 11.051600999457555
+  },
+  "steps_per_s": 90484.62752582933,
+  "peak_MB": 474.822509765625
+ },
+ {
+  "fw": "conv",
+  "gpu": "NVIDIA_A40",
+  "n_atoms": 16384,
+  "R": 32,
+  "us_per_replica_step_direct": null,
+  "ms_step_propose": 0.02340588511692153,
+  "ms_step_energy": 0.4158191000007921,
+  "ms_step_accept": 0.027246863270799275,
+  "ms_step_total": 0.4664718483885129,
+  "us_per_replica_step": {
+   "propose": 0.7314339099037978,
+   "energy": 12.994346875024753,
+   "accept": 0.8514644772124774,
+   "total": 14.577245262141028
+  },
+  "steps_per_s": 68600.06688624002,
+  "peak_MB": 729.45166015625
+ },
+ {
+  "fw": "conv",
+  "gpu": "NVIDIA_A40",
+  "n_atoms": 131072,
+  "R": 32,
+  "us_per_replica_step_direct": null,
+  "ms_step_propose": 0.02733296611242824,
+  "ms_step_energy": 0.5690521363996798,
+  "ms_step_accept": 0.02028266485366555,
+  "ms_step_total": 0.6166677673657736,
+  "us_per_replica_step": {
+   "propose": 0.8541551910133824,
+   "energy": 17.782879262489992,
+   "accept": 0.6338332766770485,
+   "total": 19.270867730180424
+  },
+  "steps_per_s": 51891.79926931279,
+  "peak_MB": 1985.33447265625
+ },
+ {
+  "fw": "conv",
+  "gpu": "NVIDIA_A40",
+  "n_atoms": 1048576,
+  "R": 32,
+  "us_per_replica_step_direct": null,
+  "ms_step_propose": 0.05870536176694764,
+  "ms_step_energy": 1.367012339954575,
+  "ms_step_accept": 0.030089887893862022,
+  "ms_step_total": 1.4558075896153846,
+  "us_per_replica_step": {
+   "propose": 1.834542555217114,
+   "energy": 42.71913562358047,
+   "accept": 0.9403089966831881,
+   "total": 45.49398717548077
+  },
+  "steps_per_s": 21980.92675726069,
+  "peak_MB": 12083.099609375
+ }
+]

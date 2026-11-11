@@ -1,0 +1,5 @@
+# Only for scripts/bench/bench_gnn_mc_step.py (CGCNN / ALIGNN / Disorder-GNN Monte Carlo cost, Fig. 3a,b).
+torch==2.11.0
+torch-geometric==2.8.0.post1
+flax==0.10.7
+pymatgen==2025.10.7

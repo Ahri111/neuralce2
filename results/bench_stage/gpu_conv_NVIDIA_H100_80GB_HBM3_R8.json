@@ -1,0 +1,21 @@
+[
+ {
+  "fw": "conv",
+  "gpu": "NVIDIA_H100_80GB_HBM3",
+  "n_atoms": 10061824,
+  "R": 8,
+  "us_per_replica_step_direct": null,
+  "ms_step_propose": 0.02009120100410655,
+  "ms_step_energy": 0.5107591336709447,
+  "ms_step_accept": 0.01653835483981917,
+  "ms_step_total": 0.5473886895148704,
+  "us_per_replica_step": {
+   "propose": 2.511400125513319,
+   "energy": 63.84489170886809,
+   "accept": 2.0672943549773968,
+   "total": 68.4235861893588
+  },
+  "steps_per_s": 14614.843443495503,
+  "peak_MB": 20771.0556640625
+ }
+]

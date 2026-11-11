@@ -1,0 +1,97 @@
+[
+ {
+  "fw": "conv",
+  "gpu": "NVIDIA_H100_80GB_HBM3",
+  "n_atoms": 256,
+  "R": 32,
+  "us_per_replica_step_direct": null,
+  "ms_step_propose": 0.019177362162736244,
+  "ms_step_energy": 0.17391796167066786,
+  "ms_step_accept": 0.014849251834675664,
+  "ms_step_total": 0.20794457566807978,
+  "us_per_replica_step": {
+   "propose": 0.5992925675855076,
+   "energy": 5.434936302208371,
+   "accept": 0.4640391198336145,
+   "total": 6.498267989627493
+  },
+  "steps_per_s": 153887.1591008859,
+  "peak_MB": 30.023193359375
+ },
+ {
+  "fw": "conv",
+  "gpu": "NVIDIA_H100_80GB_HBM3",
+  "n_atoms": 2048,
+  "R": 32,
+  "us_per_replica_step_direct": null,
+  "ms_step_propose": 0.019416068670883153,
+  "ms_step_energy": 0.18376853832645187,
+  "ms_step_accept": 0.018060606836418924,
+  "ms_step_total": 0.22124521383375395,
+  "us_per_replica_step": {
+   "propose": 0.6067521459650985,
+   "energy": 5.742766822701621,
+   "accept": 0.5643939636380914,
+   "total": 6.913912932304811
+  },
+  "steps_per_s": 144635.89718169067,
+  "peak_MB": 44.68115234375
+ },
+ {
+  "fw": "conv",
+  "gpu": "NVIDIA_H100_80GB_HBM3",
+  "n_atoms": 16384,
+  "R": 32,
+  "us_per_replica_step_direct": null,
+  "ms_step_propose": 0.019708486332092434,
+  "ms_step_energy": 0.16228024050360546,
+  "ms_step_accept": 0.018952911166707057,
+  "ms_step_total": 0.20094163800240494,
+  "us_per_replica_step": {
+   "propose": 0.6158901978778886,
+   "energy": 5.0712575157376705,
+   "accept": 0.5922784739595955,
+   "total": 6.2794261875751545
+  },
+  "steps_per_s": 159250.21970616668,
+  "peak_MB": 167.23388671875
+ },
+ {
+  "fw": "conv",
+  "gpu": "NVIDIA_H100_80GB_HBM3",
+  "n_atoms": 131072,
+  "R": 32,
+  "us_per_replica_step_direct": null,
+  "ms_step_propose": 0.01985750883371414,
+  "ms_step_energy": 0.18171966267012368,
+  "ms_step_accept": 0.016426122664900802,
+  "ms_step_total": 0.21800329416873865,
+  "us_per_replica_step": {
+   "propose": 0.6205471510535668,
+   "energy": 5.678739458441365,
+   "accept": 0.5133163332781501,
+   "total": 6.812602942773083
+  },
+  "steps_per_s": 146786.7727504677,
+  "peak_MB": 1109.232421875
+ },
+ {
+  "fw": "conv",
+  "gpu": "NVIDIA_H100_80GB_HBM3",
+  "n_atoms": 1048576,
+  "R": 32,
+  "us_per_replica_step_direct": null,
+  "ms_step_propose": 0.02053127383017757,
+  "ms_step_energy": 0.3365401820046827,
+  "ms_step_accept": 0.021247807167431642,
+  "ms_step_total": 0.37831926300229196,
+  "us_per_replica_step": {
+   "propose": 0.6416023071930491,
+   "energy": 10.516880687646335,
+   "accept": 0.6639939739822388,
+   "total": 11.822476968821624
+  },
+  "steps_per_s": 84584.64352582052,
+  "peak_MB": 8660.792236328125
+ }
+]

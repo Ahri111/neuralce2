@@ -1,0 +1,138 @@
+{
+ "conv_x25_N256": {
+  "T_peak": 667.0,
+  "inside_window": true
+ },
+ "conv_x25_N2048": {
+  "T_peak": 682.2,
+  "inside_window": true
+ },
+ "conv_x25_N6912": {
+  "T_peak": 685.0,
+  "inside_window": true
+ },
+ "conv_x25_N16384": {
+  "T_peak": 684.9,
+  "inside_window": true
+ },
+ "conv_x25_N131072": {
+  "T_peak": 681.2,
+  "inside_window": true
+ },
+ "conv_x50_N256": {
+  "T_peak": 835.0,
+  "inside_window": true
+ },
+ "conv_x50_N2048": {
+  "T_peak": 850.3,
+  "inside_window": true
+ },
+ "conv_x50_N6912": {
+  "T_peak": 848.6,
+  "inside_window": true
+ },
+ "conv_x50_N16384": {
+  "T_peak": 847.1,
+  "inside_window": true
+ },
+ "conv_x50_N131072": {
+  "T_peak": 844.7,
+  "inside_window": true
+ },
+ "conv_x75_N256": {
+  "T_peak": 790.0,
+  "inside_window": true
+ },
+ "conv_x75_N2048": {
+  "T_peak": 810.5,
+  "inside_window": true
+ },
+ "conv_x75_N6912": {
+  "T_peak": 811.2,
+  "inside_window": true
+ },
+ "conv_x75_N16384": {
+  "T_peak": 812.8,
+  "inside_window": true
+ },
+ "conv_x75_N131072": {
+  "T_peak": 810.6,
+  "inside_window": true
+ },
+ "icet_x25_N256": {
+  "T_peak": 685.0,
+  "inside_window": true
+ },
+ "icet_x25_N2048": {
+  "T_peak": 714.3,
+  "inside_window": true
+ },
+ "icet_x25_N6912": {
+  "T_peak": 715.4,
+  "inside_window": true
+ },
+ "icet_x25_N16384": {
+  "T_peak": 715.7,
+  "inside_window": true
+ },
+ "icet_x25_N131072": {
+  "T_peak": 717.7,
+  "inside_window": true
+ },
+ "icet_x25_N1048576": {
+  "T_peak": 717.2,
+  "inside_window": true
+ },
+ "icet_x50_N256": {
+  "T_peak": 874.0,
+  "inside_window": true
+ },
+ "icet_x50_N2048": {
+  "T_peak": 915.1,
+  "inside_window": true
+ },
+ "icet_x50_N6912": {
+  "T_peak": 916.6,
+  "inside_window": true
+ },
+ "icet_x50_N16384": {
+  "T_peak": 917.9,
+  "inside_window": true
+ },
+ "icet_x50_N131072": {
+  "T_peak": 919.8,
+  "inside_window": true
+ },
+ "icet_x50_N1048576": {
+  "T_peak": 919.2,
+  "inside_window": true
+ },
+ "icet_x50_N10061824": {
+  "T_peak": 919.2,
+  "inside_window": true
+ },
+ "icet_x75_N256": {
+  "T_peak": 862.0,
+  "inside_window": true
+ },
+ "icet_x75_N2048": {
+  "T_peak": 903.0,
+  "inside_window": true
+ },
+ "icet_x75_N6912": {
+  "T_peak": 905.8,
+  "inside_window": true
+ },
+ "icet_x75_N16384": {
+  "T_peak": 908.5,
+  "inside_window": true
+ },
+ "icet_x75_N131072": {
+  "T_peak": 909.0,
+  "inside_window": true
+ },
+ "icet_x75_N1048576": {
+  "T_peak": 908.5,
+  "inside_window": true
+ }
+}

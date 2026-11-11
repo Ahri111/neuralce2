@@ -1,0 +1,2 @@
+# NVIDIA GPU support for JAX (CUDA 12 wheels from PyPI; the driver must support CUDA 12).
+jax[cuda12]==0.6.2

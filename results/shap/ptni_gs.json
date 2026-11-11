@@ -1,0 +1,68 @@
+{
+ "system": "ptni",
+ "model": "nipt_v3_nomax_sel",
+ "seed": 0,
+ "groups": [
+  "singlets",
+  "pairs 1NN",
+  "pairs 2NN",
+  "pairs 3NN+",
+  "triplets",
+  "quadruplets"
+ ],
+ "n_channels": {
+  "singlets": 1,
+  "pairs 1NN": 1,
+  "pairs 2NN": 1,
+  "pairs 3NN+": 1,
+  "triplets": 6,
+  "quadruplets": 1
+ },
+ "rows": [
+  {
+   "file": "ref_L12_Pt3Ni.cif",
+   "label": "x25",
+   "T": 0.0,
+   "E_meV": -111.08128315865424,
+   "E_base_meV": -0.8889310090680034,
+   "phi": {
+    "singlets": -84.83716383098738,
+    "pairs 1NN": -20.489023209388094,
+    "pairs 2NN": -11.741921232394835,
+    "pairs 3NN+": 1.9440280477432037,
+    "triplets": 5.360232104273316,
+    "quadruplets": -0.4285040288324743
+   }
+  },
+  {
+   "file": "ref_L10_NiPt.cif",
+   "label": "x50",
+   "T": 0.0,
+   "E_meV": -65.32626884854066,
+   "E_base_meV": -0.8889310090680034,
+   "phi": {
+    "singlets": -5.1851312961609315,
+    "pairs 1NN": -47.57996223275354,
+    "pairs 2NN": -12.033101062477417,
+    "pairs 3NN+": 3.8080620846150532,
+    "triplets": -0.3127522999825438,
+    "quadruplets": -3.1344530327132816
+   }
+  },
+  {
+   "file": "ref_L12_Ni3Pt.cif",
+   "label": "x75",
+   "T": 0.0,
+   "E_meV": 38.98062419477437,
+   "E_base_meV": -0.8889310090680034,
+   "phi": {
+    "singlets": 75.09488350615385,
+    "pairs 1NN": -20.41933911343114,
+    "pairs 2NN": -12.34904854346198,
+    "pairs 3NN+": 2.050150139348294,
+    "triplets": -4.1441854303339944,
+    "quadruplets": -0.36290535443266464
+   }
+  }
+ ]
+}
