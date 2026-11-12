@@ -16,6 +16,8 @@ from neuralce.paths import REPO, RUNS
 KB = 8.617333e-5
 EXPT = {"Fe-Ni": (0.017, -0.002), "Fe-Cr": (-0.009, 0.043), "Cr-Ni": (-0.113, 0.148)}      # (alpha1, alpha2)
 SPECIES = {0: "Cr", 1: "Fe", 2: "Ni"}                                                         # sigma = rank of Z within the sublattice
+if len(sys.argv) < 2:
+    sys.exit(f"usage: python {sys.argv[0]} <run tag under $NCE_RUNS/fenicr_select, or a run directory>")
 arg = sys.argv[1].rstrip("/")
 ROOT = os.environ.get("FENICR_SELECT_ROOT", f"{RUNS}/fenicr_select")
 TAGDIR = arg if os.path.isdir(arg) else f"{ROOT}/{arg}"; tag = os.path.basename(TAGDIR); D = f"{TAGDIR}/multiT"

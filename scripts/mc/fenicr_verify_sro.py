@@ -17,6 +17,8 @@ from icet import ClusterSpace
 from neuralce.nce.mc_model import load_model, setup, train_path_energy
 from neuralce.paths import MODELS, RUNS
 
+if len(sys.argv) < 2:
+    sys.exit(f"usage: python {sys.argv[0]} <run tag under $NCE_RUNS/fenicr_select, or a run directory>")
 arg = sys.argv[1].rstrip("/")
 ROOT = os.environ.get("FENICR_SELECT_ROOT", f"{RUNS}/fenicr_select")
 TAGDIR = arg if os.path.isdir(arg) else f"{ROOT}/{arg}"; tag = os.path.basename(TAGDIR); D = f"{TAGDIR}/multiT"
